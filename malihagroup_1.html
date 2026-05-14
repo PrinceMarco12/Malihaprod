@@ -1,0 +1,998 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>MalihaGroup — Votre pont Afrique · Europe · Monde</title>
+<meta name="description" content="MalihaGroup : conseils visa, études, travail en Europe et Allemagne, idées business Afrique-Europe, espace rencontres, monétisation réseaux sociaux, marketplace et commandes sur mesure. 100% gratuit."/>
+<meta name="keywords" content="études Allemagne, visa Europe, business Afrique Europe, diaspora africaine, écoles Europe, monétisation Facebook TikTok, marketplace Afrique"/>
+<meta property="og:title" content="MalihaGroup — Afrique · Europe · Monde"/>
+<meta property="og:description" content="Votre passerelle entre l'Afrique et l'Europe : conseils, écoles, business, réseau, monétisation, marketplace."/>
+<meta property="og:type" content="website"/>
+<meta property="og:url" content="https://malihagroup.com"/>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;900&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet"/>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/tabler-icons.min.css"/>
+<style>
+:root{
+  --gold:#C9A84C;--gold-light:#F0D080;--dark:#111827;--dark2:#1F2937;
+  --green:#0F6E56;--green-light:#E1F5EE;--cream:#F9F6F0;--white:#fff;
+  --border:#E5E0D5;--text:#1A1A2E;--muted:#6B7280;--radius:12px;
+}
+*{box-sizing:border-box;margin:0;padding:0;scroll-behavior:smooth;}
+body{font-family:'DM Sans',sans-serif;background:var(--cream);color:var(--text);}
+
+/* ─── NAV ─── */
+nav{position:sticky;top:0;z-index:999;background:var(--dark);display:flex;align-items:center;justify-content:space-between;padding:.75rem 2rem;box-shadow:0 2px 20px rgba(0,0,0,.4);}
+.logo{font-family:'Playfair Display',serif;font-size:20px;color:var(--gold);letter-spacing:.5px;cursor:pointer;text-decoration:none;}
+.logo small{display:block;color:rgba(255,255,255,.45);font-family:'DM Sans',sans-serif;font-size:9.5px;font-weight:300;letter-spacing:3px;}
+.nav-links{display:flex;gap:4px;flex-wrap:wrap;}
+.nav-links a{color:rgba(255,255,255,.65);text-decoration:none;font-size:12.5px;padding:6px 10px;border-radius:20px;transition:.2s;white-space:nowrap;}
+.nav-links a:hover{background:rgba(201,168,76,.15);color:var(--gold);}
+.nav-right{display:flex;align-items:center;gap:10px;}
+.nav-cta{background:var(--gold);color:var(--dark);font-size:12.5px;font-weight:600;padding:7px 16px;border-radius:20px;cursor:pointer;border:none;font-family:'DM Sans',sans-serif;white-space:nowrap;text-decoration:none;}
+.burger{display:none;background:none;border:none;cursor:pointer;color:#fff;font-size:22px;padding:4px;}
+.mobile-menu{display:none;flex-direction:column;background:var(--dark2);padding:1rem 1.5rem;gap:4px;border-top:0.5px solid rgba(255,255,255,.08);}
+.mobile-menu a{color:rgba(255,255,255,.75);text-decoration:none;font-size:14px;padding:10px 0;border-bottom:0.5px solid rgba(255,255,255,.06);}
+.mobile-menu.open{display:flex;}
+
+/* ─── HERO ─── */
+.hero{background:linear-gradient(160deg,#0d1117 0%,#111827 40%,#0a2a1e 100%);padding:5rem 2rem 4rem;text-align:center;position:relative;overflow:hidden;}
+.hero::before{content:'';position:absolute;inset:0;background:radial-gradient(ellipse 80% 60% at 50% 40%,rgba(201,168,76,.07),transparent);}
+.hero-tag{display:inline-flex;align-items:center;gap:6px;background:rgba(201,168,76,.12);border:.5px solid rgba(201,168,76,.35);color:var(--gold);font-size:12px;padding:5px 14px;border-radius:20px;margin-bottom:1.5rem;position:relative;}
+.hero h1{font-family:'Playfair Display',serif;font-size:clamp(30px,5.5vw,58px);color:#fff;line-height:1.15;max-width:700px;margin:0 auto 1.2rem;position:relative;}
+.hero h1 em{color:var(--gold);font-style:normal;}
+.hero-sub{font-size:15px;color:rgba(255,255,255,.6);max-width:580px;margin:0 auto 2.5rem;line-height:1.75;position:relative;}
+.hero-btns{display:flex;gap:12px;justify-content:center;flex-wrap:wrap;position:relative;margin-bottom:3rem;}
+.btn-gold{background:var(--gold);color:var(--dark);font-size:14px;font-weight:600;padding:13px 30px;border:none;border-radius:8px;cursor:pointer;font-family:'DM Sans',sans-serif;transition:.15s;text-decoration:none;display:inline-block;}
+.btn-gold:hover{background:var(--gold-light);}
+.btn-outline{background:transparent;color:#fff;font-size:14px;padding:12px 30px;border:.5px solid rgba(255,255,255,.35);border-radius:8px;cursor:pointer;font-family:'DM Sans',sans-serif;transition:.15s;text-decoration:none;display:inline-block;}
+.btn-outline:hover{border-color:var(--gold);color:var(--gold);}
+.hero-stats{display:flex;justify-content:center;gap:0;flex-wrap:wrap;position:relative;}
+.hstat{padding:1rem 1.8rem;text-align:center;border-right:.5px solid rgba(255,255,255,.1);}
+.hstat:last-child{border-right:none;}
+.hstat strong{display:block;font-family:'Playfair Display',serif;font-size:28px;color:var(--gold);}
+.hstat span{font-size:11px;color:rgba(255,255,255,.45);letter-spacing:.5px;text-transform:uppercase;}
+
+/* ─── SECTIONS ─── */
+.section{padding:3.5rem 2rem;max-width:1200px;margin:0 auto;}
+.section-wrap{background:#fff;}
+.section-wrap-cream{background:var(--cream);}
+.section-wrap-dark{background:var(--dark);}
+.full-section{padding:3.5rem 0;}
+.section-header{margin-bottom:2.2rem;}
+.section-header h2{font-family:'Playfair Display',serif;font-size:26px;color:inherit;}
+.section-header p{font-size:14px;color:var(--muted);margin-top:.4rem;}
+.dark-header h2{color:#fff;}
+.dark-header p{color:rgba(255,255,255,.5);}
+.pill-tag{display:inline-block;background:rgba(201,168,76,.12);color:var(--gold);font-size:11px;padding:3px 11px;border-radius:20px;margin-bottom:.7rem;border:.5px solid rgba(201,168,76,.3);}
+.pill-tag-green{background:rgba(15,110,86,.1);color:var(--green);border-color:rgba(15,110,86,.25);}
+
+/* ─── SERVICES ─── */
+.services-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(185px,1fr));gap:14px;}
+.scard{background:#fff;border:.5px solid var(--border);border-radius:var(--radius);padding:1.4rem;cursor:pointer;transition:.2s;text-decoration:none;color:inherit;display:block;}
+.scard:hover{border-color:var(--gold);transform:translateY(-3px);box-shadow:0 8px 24px rgba(0,0,0,.07);}
+.scard-icon{width:44px;height:44px;border-radius:10px;display:flex;align-items:center;justify-content:center;font-size:20px;margin-bottom:12px;}
+.scard h3{font-size:14px;font-weight:500;margin-bottom:5px;}
+.scard p{font-size:12.5px;color:var(--muted);line-height:1.55;}
+.ic-b{background:#E6F1FB;color:#185FA5;}
+.ic-g{background:#EAF3DE;color:#3B6D11;}
+.ic-t{background:#E1F5EE;color:#0F6E56;}
+.ic-a{background:#FFF3D0;color:#854F0B;}
+.ic-p{background:#FBEAF0;color:#993556;}
+.ic-v{background:#EEEDFE;color:#534AB7;}
+
+/* ─── CONSEILS ─── */
+.conseils-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:20px;}
+.ccard{background:#fff;border:.5px solid var(--border);border-radius:var(--radius);overflow:hidden;}
+.ccard-header{background:var(--dark);padding:1.1rem 1.4rem;display:flex;align-items:center;gap:10px;}
+.ccard-header i{font-size:20px;color:var(--gold);}
+.ccard-header h3{font-size:13.5px;font-weight:500;color:#fff;}
+.ccard-body{padding:1.2rem 1.4rem;}
+.ccard-body ul{list-style:none;display:flex;flex-direction:column;gap:8px;}
+.ccard-body li{font-size:13px;color:var(--text);display:flex;align-items:flex-start;gap:8px;line-height:1.5;}
+.ccard-body li::before{content:'→';color:var(--gold);flex-shrink:0;margin-top:1px;}
+.ccard-link{display:block;padding:.75rem 1.4rem;background:var(--green-light);color:var(--green);font-size:12.5px;font-weight:500;text-decoration:none;border-top:.5px solid var(--border);}
+.ccard-link:hover{background:#c5e8d8;}
+
+/* ─── ÉCOLES ─── */
+.ecoles-tabs{display:flex;gap:8px;margin-bottom:1.5rem;flex-wrap:wrap;}
+.etab{background:#fff;border:.5px solid var(--border);border-radius:20px;padding:7px 15px;font-size:12.5px;cursor:pointer;transition:.2s;color:var(--text);}
+.etab.active,.etab:hover{background:var(--dark);color:#fff;border-color:var(--dark);}
+.ecoles-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:14px;}
+.ecard{background:#fff;border:.5px solid var(--border);border-radius:var(--radius);padding:1.2rem;display:none;}
+.ecard.visible{display:block;}
+.ecard-country{font-size:11px;color:var(--muted);margin-bottom:4px;}
+.ecard h4{font-size:14px;font-weight:500;margin-bottom:4px;}
+.ecard p{font-size:12.5px;color:var(--muted);line-height:1.5;margin-bottom:8px;}
+.ecard-tags{display:flex;flex-wrap:wrap;gap:5px;}
+.etag{background:var(--cream);color:var(--muted);font-size:11px;padding:3px 9px;border-radius:6px;border:.5px solid var(--border);}
+.etag.gold{background:rgba(201,168,76,.1);color:#854F0B;border-color:rgba(201,168,76,.3);}
+
+/* ─── BUSINESS ─── */
+.biz-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(255px,1fr));gap:16px;}
+.bizcard{background:#fff;border:.5px solid var(--border);border-radius:var(--radius);padding:1.4rem;}
+.bizcard-flag{font-size:26px;margin-bottom:8px;}
+.bizcard h4{font-size:14.5px;font-weight:500;margin-bottom:6px;}
+.bizcard p{font-size:12.5px;color:var(--muted);line-height:1.55;margin-bottom:10px;}
+.biz-potential{display:flex;align-items:center;gap:8px;font-size:12px;}
+.biz-bar{flex:1;height:5px;background:var(--cream);border-radius:3px;overflow:hidden;}
+.biz-fill{height:100%;background:var(--gold);border-radius:3px;}
+
+/* ─── RENCONTRE ─── */
+.rencontre-banner{background:linear-gradient(135deg,var(--green) 0%,#0a2a1e 100%);border-radius:var(--radius);padding:2rem;color:#fff;margin-bottom:2rem;text-align:center;}
+.rencontre-banner h3{font-family:'Playfair Display',serif;font-size:22px;margin-bottom:.5rem;}
+.rencontre-banner p{font-size:13.5px;opacity:.8;margin-bottom:1.5rem;}
+.country-pills{display:flex;flex-wrap:wrap;gap:8px;justify-content:center;margin-bottom:1.5rem;}
+.cpill{background:rgba(255,255,255,.12);border:.5px solid rgba(255,255,255,.25);color:#fff;font-size:12px;padding:5px 12px;border-radius:20px;}
+.profile-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:14px;}
+.pcard{background:#fff;border:.5px solid var(--border);border-radius:var(--radius);padding:1.2rem;text-align:center;}
+.avatar{width:50px;height:50px;border-radius:50%;margin:0 auto 10px;display:flex;align-items:center;justify-content:center;font-weight:600;font-size:17px;}
+.av-b{background:#E6F1FB;color:#185FA5;} .av-g{background:#EAF3DE;color:#3B6D11;}
+.av-t{background:#E1F5EE;color:#0F6E56;} .av-a{background:#FFF3D0;color:#854F0B;}
+.av-p{background:#FBEAF0;color:#993556;}
+.pcard h4{font-size:13px;font-weight:500;margin-bottom:2px;}
+.pcard p{font-size:12px;color:var(--muted);margin-bottom:5px;}
+.pcard-loc{font-size:11.5px;color:var(--green);font-weight:500;}
+.pcard-btn{display:block;margin-top:10px;background:var(--cream);border:.5px solid var(--border);border-radius:6px;padding:5px 10px;font-size:11.5px;color:var(--text);text-decoration:none;cursor:pointer;}
+.pcard-btn:hover{background:var(--green-light);color:var(--green);}
+
+/* ─── MONÉTISATION ─── */
+.mono-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px;}
+.mono-card{background:#fff;border:.5px solid var(--border);border-radius:var(--radius);padding:1.4rem;}
+.mono-logo{font-size:28px;margin-bottom:10px;}
+.mono-card h4{font-size:14px;font-weight:500;margin-bottom:6px;}
+.mono-card p{font-size:12.5px;color:var(--muted);line-height:1.55;margin-bottom:12px;}
+.mono-steps{display:flex;flex-direction:column;gap:7px;}
+.mstep{display:flex;align-items:flex-start;gap:8px;font-size:12.5px;color:var(--text);line-height:1.45;}
+.mstep-num{width:20px;height:20px;min-width:20px;background:var(--dark);color:#fff;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:10px;font-weight:500;margin-top:1px;}
+
+/* ─── MARKETPLACE ─── */
+.market-filter{display:flex;gap:8px;margin-bottom:1.5rem;flex-wrap:wrap;}
+.mfilt{background:#fff;border:.5px solid var(--border);border-radius:20px;padding:6px 14px;font-size:12.5px;cursor:pointer;transition:.2s;color:var(--text);}
+.mfilt.active,.mfilt:hover{background:var(--dark);color:#fff;border-color:var(--dark);}
+.market-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(195px,1fr));gap:16px;}
+.mcard{background:#fff;border:.5px solid var(--border);border-radius:var(--radius);overflow:hidden;transition:.2s;}
+.mcard:hover{border-color:var(--gold);transform:translateY(-2px);box-shadow:0 6px 20px rgba(0,0,0,.07);}
+.mcard-img{height:120px;display:flex;align-items:center;justify-content:center;font-size:48px;background:var(--cream);}
+.mcard-body{padding:.9rem;}
+.mcard h4{font-size:13.5px;font-weight:500;margin-bottom:3px;}
+.mcard p{font-size:12px;color:var(--muted);margin-bottom:8px;}
+.mcard-bottom{display:flex;align-items:center;justify-content:space-between;gap:6px;}
+.mcard-price{font-size:15px;font-weight:600;color:var(--gold);}
+.mcard-loc{font-size:11px;color:var(--muted);}
+.mcard-contact{font-size:11.5px;background:var(--green-light);color:var(--green);border:none;border-radius:6px;padding:4px 10px;cursor:pointer;font-family:'DM Sans',sans-serif;}
+
+/* ─── ANNONCE FORM ─── */
+.annonce-toggle{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:12px;margin-bottom:1.5rem;}
+.annonce-box{background:var(--dark2);border-radius:var(--radius);padding:1.5rem;display:none;}
+.annonce-box.open{display:block;}
+.annonce-form{display:grid;gap:12px;}
+.annonce-form input,.annonce-form select,.annonce-form textarea{background:rgba(255,255,255,.07);border:.5px solid rgba(255,255,255,.2);border-radius:8px;padding:10px 14px;color:#fff;font-size:13.5px;font-family:'DM Sans',sans-serif;width:100%;}
+.annonce-form textarea{height:80px;resize:none;}
+.annonce-form select option{background:#1F2937;}
+.annonce-form input::placeholder,.annonce-form textarea::placeholder{color:rgba(255,255,255,.3);}
+.annonce-row{display:grid;grid-template-columns:1fr 1fr;gap:12px;}
+
+/* ─── CHERCHE POUR TOI ─── */
+.cherche-box{background:linear-gradient(135deg,#1F2937,#111827);border-radius:var(--radius);padding:2rem;margin-top:2.5rem;}
+.cherche-box h3{font-family:'Playfair Display',serif;color:#fff;font-size:20px;margin-bottom:.4rem;}
+.cherche-box > p{color:rgba(255,255,255,.6);font-size:13.5px;margin-bottom:1.5rem;}
+.cherche-form{display:grid;gap:12px;}
+.cherche-form input,.cherche-form select,.cherche-form textarea{background:rgba(255,255,255,.07);border:.5px solid rgba(255,255,255,.2);border-radius:8px;padding:10px 14px;color:#fff;font-size:13.5px;font-family:'DM Sans',sans-serif;width:100%;}
+.cherche-form textarea{height:80px;resize:none;}
+.cherche-form select option{background:#1F2937;}
+.cherche-form input::placeholder,.cherche-form textarea::placeholder{color:rgba(255,255,255,.3);}
+.cherche-row{display:grid;grid-template-columns:1fr 1fr;gap:12px;}
+
+/* ─── À PROPOS ─── */
+.apropos-grid{display:grid;grid-template-columns:1fr 1.4fr;gap:3rem;align-items:center;}
+.apropos-img{background:linear-gradient(135deg,var(--green),#0a2a1e);border-radius:var(--radius);padding:2.5rem;text-align:center;color:#fff;}
+.apropos-img .big-icon{font-size:64px;display:block;margin-bottom:1rem;}
+.apropos-img h3{font-family:'Playfair Display',serif;font-size:20px;margin-bottom:.5rem;}
+.apropos-img p{font-size:13px;opacity:.75;line-height:1.6;}
+.apropos-text h2{font-family:'Playfair Display',serif;font-size:26px;margin-bottom:1rem;}
+.apropos-text p{font-size:14px;color:var(--muted);line-height:1.75;margin-bottom:1rem;}
+.apropos-vals{display:flex;flex-direction:column;gap:10px;margin-top:1.5rem;}
+.aval{display:flex;align-items:flex-start;gap:12px;}
+.aval-icon{width:36px;height:36px;min-width:36px;background:rgba(201,168,76,.1);border-radius:8px;display:flex;align-items:center;justify-content:center;color:var(--gold);font-size:18px;}
+.aval-text strong{display:block;font-size:13.5px;font-weight:500;margin-bottom:2px;}
+.aval-text span{font-size:12.5px;color:var(--muted);}
+
+/* ─── TÉMOIGNAGES ─── */
+.temoignages-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px;}
+.tcard{background:#fff;border:.5px solid var(--border);border-radius:var(--radius);padding:1.4rem;}
+.tcard-stars{color:var(--gold);font-size:14px;margin-bottom:10px;letter-spacing:2px;}
+.tcard p{font-size:13.5px;color:var(--text);line-height:1.65;margin-bottom:14px;font-style:italic;}
+.tcard-author{display:flex;align-items:center;gap:10px;}
+.tcard-avatar{width:38px;height:38px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:14px;font-weight:600;}
+.tcard-author-info strong{display:block;font-size:13px;font-weight:500;}
+.tcard-author-info span{font-size:12px;color:var(--muted);}
+
+/* ─── FAQ ─── */
+.faq-list{display:flex;flex-direction:column;gap:10px;max-width:800px;}
+.faq-item{background:#fff;border:.5px solid var(--border);border-radius:10px;overflow:hidden;}
+.faq-q{display:flex;align-items:center;justify-content:space-between;padding:1rem 1.4rem;cursor:pointer;font-size:14px;font-weight:500;color:var(--text);gap:12px;}
+.faq-q:hover{background:var(--cream);}
+.faq-q i{font-size:18px;color:var(--muted);transition:.25s;flex-shrink:0;}
+.faq-a{display:none;padding:0 1.4rem 1rem;font-size:13.5px;color:var(--muted);line-height:1.7;border-top:.5px solid var(--border);}
+.faq-a.open{display:block;}
+.faq-q.open i{transform:rotate(180deg);color:var(--gold);}
+
+/* ─── NEWSLETTER ─── */
+.newsletter-box{background:linear-gradient(135deg,#1F2937,var(--dark));border-radius:var(--radius);padding:2.5rem 2rem;text-align:center;}
+.newsletter-box h3{font-family:'Playfair Display',serif;color:#fff;font-size:22px;margin-bottom:.5rem;}
+.newsletter-box p{color:rgba(255,255,255,.6);font-size:13.5px;margin-bottom:1.5rem;}
+.newsletter-form{display:flex;gap:10px;max-width:460px;margin:0 auto;flex-wrap:wrap;}
+.newsletter-form input{flex:1;background:rgba(255,255,255,.09);border:.5px solid rgba(255,255,255,.2);border-radius:8px;padding:11px 14px;color:#fff;font-size:13.5px;font-family:'DM Sans',sans-serif;min-width:200px;}
+.newsletter-form input::placeholder{color:rgba(255,255,255,.35);}
+.newsletter-form button{background:var(--gold);color:var(--dark);border:none;border-radius:8px;padding:11px 22px;font-size:13.5px;font-weight:600;cursor:pointer;font-family:'DM Sans',sans-serif;white-space:nowrap;}
+
+/* ─── ACTUALITES / BLOG ─── */
+.blog-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px;}
+.blog-card{background:#fff;border:.5px solid var(--border);border-radius:var(--radius);overflow:hidden;cursor:pointer;transition:.2s;}
+.blog-card:hover{border-color:var(--gold);transform:translateY(-2px);}
+.blog-card-top{padding:1.8rem 1.4rem 1rem;font-size:36px;}
+.blog-cat{display:inline-block;font-size:11px;padding:3px 10px;border-radius:10px;margin-bottom:8px;}
+.cat-vert{background:var(--green-light);color:var(--green);}
+.cat-gold{background:rgba(201,168,76,.1);color:#854F0B;}
+.cat-blue{background:#E6F1FB;color:#185FA5;}
+.blog-card h4{font-size:14px;font-weight:500;margin-bottom:5px;padding:0 1.4rem;}
+.blog-card p{font-size:12.5px;color:var(--muted);line-height:1.5;padding:0 1.4rem 1.2rem;}
+.blog-card-meta{padding:.75rem 1.4rem;border-top:.5px solid var(--border);font-size:12px;color:var(--muted);}
+
+/* ─── CONTACT ─── */
+.contact-wrap{display:grid;grid-template-columns:1fr 1.4fr;gap:2.5rem;}
+.contact-info h3{font-family:'Playfair Display',serif;font-size:22px;color:#fff;margin-bottom:.8rem;}
+.contact-info > p{color:rgba(255,255,255,.6);font-size:13.5px;line-height:1.7;margin-bottom:1.5rem;}
+.contact-methods{display:flex;flex-direction:column;gap:10px;}
+.cmethod{display:flex;align-items:center;gap:12px;background:rgba(255,255,255,.05);border:.5px solid rgba(255,255,255,.1);border-radius:10px;padding:11px 15px;cursor:pointer;transition:.2s;text-decoration:none;}
+.cmethod:hover{background:rgba(255,255,255,.09);border-color:rgba(201,168,76,.4);}
+.cmethod i{font-size:20px;color:var(--gold);}
+.cmethod-text strong{display:block;font-size:13px;color:#fff;margin-bottom:1px;}
+.cmethod-text span{font-size:12px;color:rgba(255,255,255,.5);}
+.contact-form-box{display:flex;flex-direction:column;gap:11px;}
+.contact-form-box input,.contact-form-box select,.contact-form-box textarea{background:rgba(255,255,255,.07);border:.5px solid rgba(255,255,255,.2);border-radius:8px;padding:11px 14px;color:#fff;font-size:13.5px;font-family:'DM Sans',sans-serif;width:100%;transition:.2s;}
+.contact-form-box input:focus,.contact-form-box select:focus,.contact-form-box textarea:focus{outline:none;border-color:var(--gold);background:rgba(255,255,255,.1);}
+.contact-form-box textarea{height:100px;resize:none;}
+.contact-form-box select option{background:#111827;}
+.contact-form-box input::placeholder,.contact-form-box textarea::placeholder{color:rgba(255,255,255,.3);}
+.form-row2{display:grid;grid-template-columns:1fr 1fr;gap:11px;}
+.btn-submit{background:var(--gold);border:none;border-radius:8px;padding:13px;color:var(--dark);font-weight:600;font-size:14px;cursor:pointer;font-family:'DM Sans',sans-serif;transition:.15s;}
+.btn-submit:hover{background:var(--gold-light);}
+
+/* ─── FOOTER ─── */
+footer{background:#0a0f1a;padding:2.5rem 2rem 1.5rem;}
+.footer-inner{max-width:1200px;margin:0 auto;}
+.footer-grid{display:grid;grid-template-columns:2fr 1fr 1fr 1fr;gap:2rem;margin-bottom:2rem;}
+.footer-brand p{font-size:12.5px;color:rgba(255,255,255,.4);line-height:1.65;margin-top:.7rem;max-width:240px;}
+.footer-socials{display:flex;gap:8px;margin-top:1rem;}
+.fsoc{width:34px;height:34px;background:rgba(255,255,255,.06);border:.5px solid rgba(255,255,255,.1);border-radius:8px;display:flex;align-items:center;justify-content:center;color:rgba(255,255,255,.6);font-size:16px;cursor:pointer;transition:.2s;text-decoration:none;}
+.fsoc:hover{background:rgba(201,168,76,.15);color:var(--gold);border-color:rgba(201,168,76,.3);}
+.footer-col h5{font-size:11px;font-weight:600;color:rgba(255,255,255,.35);letter-spacing:1.5px;margin-bottom:.8rem;}
+.footer-col a{display:block;color:rgba(255,255,255,.5);font-size:13px;text-decoration:none;margin-bottom:.4rem;cursor:pointer;transition:.15s;}
+.footer-col a:hover{color:var(--gold);}
+.footer-bottom{border-top:.5px solid rgba(255,255,255,.07);padding-top:1rem;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:8px;}
+.footer-bottom span{font-size:12px;color:rgba(255,255,255,.3);}
+
+/* ─── FLOATING ELEMENTS ─── */
+.whatsapp-float{position:fixed;bottom:88px;right:22px;z-index:998;background:#25D366;color:#fff;width:52px;height:52px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:26px;text-decoration:none;box-shadow:0 4px 20px rgba(37,211,102,.4);transition:.2s;}
+.whatsapp-float:hover{transform:scale(1.1);}
+.scroll-top{position:fixed;bottom:24px;right:22px;z-index:998;background:var(--dark);color:#fff;width:44px;height:44px;border-radius:50%;display:none;align-items:center;justify-content:center;font-size:18px;cursor:pointer;border:.5px solid rgba(255,255,255,.15);box-shadow:0 2px 12px rgba(0,0,0,.4);transition:.2s;}
+.scroll-top:hover{background:var(--gold);color:var(--dark);}
+.scroll-top.visible{display:flex;}
+
+/* ─── TOAST ─── */
+.toast{position:fixed;bottom:24px;left:50%;transform:translateX(-50%);background:var(--green);color:#fff;padding:12px 22px;border-radius:10px;font-size:13.5px;display:none;z-index:9999;box-shadow:0 4px 20px rgba(0,0,0,.3);white-space:nowrap;}
+
+/* ─── INFO BOX ─── */
+.info-box{padding:1.2rem 1.4rem;border-radius:10px;font-size:13.5px;display:flex;align-items:flex-start;gap:10px;margin-top:1.5rem;}
+.info-box-gold{background:rgba(201,168,76,.07);border:.5px solid rgba(201,168,76,.25);}
+.info-box i{font-size:18px;color:var(--gold);flex-shrink:0;margin-top:1px;}
+
+/* ─── RESPONSIVE ─── */
+@media(max-width:900px){
+  .apropos-grid{grid-template-columns:1fr;}
+  .contact-wrap{grid-template-columns:1fr;}
+  .footer-grid{grid-template-columns:1fr 1fr;}
+}
+@media(max-width:650px){
+  nav{padding:.7rem 1.2rem;}
+  .nav-links{display:none;}
+  .burger{display:block;}
+  .hero{padding:3rem 1.2rem 2.5rem;}
+  .hstat{padding:.8rem 1rem;}
+  .section{padding:2.5rem 1.2rem;}
+  .annonce-row,.cherche-row,.form-row2{grid-template-columns:1fr;}
+  .footer-grid{grid-template-columns:1fr;}
+  .newsletter-form{flex-direction:column;}
+  .newsletter-form input{min-width:unset;}
+}
+</style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <a class="logo" href="#">MalihaGroup<small>AFRIQUE · EUROPE · MONDE</small></a>
+  <div class="nav-links">
+    <a href="#apropos">À propos</a>
+    <a href="#conseils">Conseils</a>
+    <a href="#ecoles">Écoles</a>
+    <a href="#business">Business</a>
+    <a href="#rencontre">Réseau</a>
+    <a href="#monetisation">Monétisation</a>
+    <a href="#marketplace">Marketplace</a>
+    <a href="#contact">Contact</a>
+  </div>
+  <div class="nav-right">
+    <a href="#contact" class="nav-cta">Nous rejoindre</a>
+    <button class="burger" onclick="toggleMenu()" aria-label="Menu"><i class="ti ti-menu-2"></i></button>
+  </div>
+</nav>
+<div class="mobile-menu" id="mobileMenu">
+  <a href="#apropos" onclick="closeMobile()">À propos</a>
+  <a href="#conseils" onclick="closeMobile()">Conseils Europe & Allemagne</a>
+  <a href="#ecoles" onclick="closeMobile()">Écoles & Universités</a>
+  <a href="#business" onclick="closeMobile()">Idées Business</a>
+  <a href="#rencontre" onclick="closeMobile()">Espace Rencontres</a>
+  <a href="#monetisation" onclick="closeMobile()">Monétisation Réseaux</a>
+  <a href="#marketplace" onclick="closeMobile()">Marketplace</a>
+  <a href="#actualites" onclick="closeMobile()">Actualités</a>
+  <a href="#faq" onclick="closeMobile()">FAQ</a>
+  <a href="#contact" onclick="closeMobile()">Contact</a>
+</div>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-tag">🌍 Votre passerelle Afrique ↔ Europe ↔ Monde</div>
+  <h1>Réussir ensemble,<br>d'<em>Afrique en Europe</em></h1>
+  <p class="hero-sub">Conseils visa, études, travail · Écoles en Europe · Business Afrique-Europe · Réseau international · Monétisation réseaux sociaux · Marketplace — tout sur une plateforme gratuite.</p>
+  <div class="hero-btns">
+    <a href="#contact" class="btn-gold">Rejoindre gratuitement</a>
+    <a href="#conseils" class="btn-outline">Découvrir les services</a>
+  </div>
+  <div class="hero-stats">
+    <div class="hstat"><strong>6</strong><span>Services</span></div>
+    <div class="hstat"><strong>50+</strong><span>Écoles</span></div>
+    <div class="hstat"><strong>30+</strong><span>Pays</span></div>
+    <div class="hstat"><strong>100%</strong><span>Gratuit</span></div>
+    <div class="hstat"><strong>7j/7</strong><span>Support</span></div>
+  </div>
+</section>
+
+<!-- SERVICES -->
+<div class="section-wrap">
+<div class="section">
+  <div class="section-header">
+    <div class="pill-tag">Nos services</div>
+    <h2>Tout ce dont vous avez besoin</h2>
+    <p>6 piliers pour votre réussite personnelle, académique et professionnelle</p>
+  </div>
+  <div class="services-grid">
+    <a class="scard" href="#conseils"><div class="scard-icon ic-b"><i class="ti ti-map-pin"></i></div><h3>Conseils Europe & Allemagne</h3><p>Visa, installation, travail, logement, procédures administratives.</p></a>
+    <a class="scard" href="#ecoles"><div class="scard-icon ic-g"><i class="ti ti-school"></i></div><h3>Écoles & Universités</h3><p>50+ établissements francophones et anglophones en Europe.</p></a>
+    <a class="scard" href="#business"><div class="scard-icon ic-t"><i class="ti ti-bulb"></i></div><h3>Idées Business</h3><p>Opportunités Afrique–Europe à fort potentiel.</p></a>
+    <a class="scard" href="#rencontre"><div class="scard-icon ic-a"><i class="ti ti-users"></i></div><h3>Espace Rencontres</h3><p>Mise en relation internationale entre membres du réseau.</p></a>
+    <a class="scard" href="#monetisation"><div class="scard-icon ic-p"><i class="ti ti-coin"></i></div><h3>Monétisation Réseaux</h3><p>Aide pour monétiser Facebook, TikTok, YouTube en Afrique.</p></a>
+    <a class="scard" href="#marketplace"><div class="scard-icon ic-v"><i class="ti ti-shopping-cart"></i></div><h3>Marketplace & Commandes</h3><p>Achat/vente, voitures d'occasion, commandes sur mesure depuis Europe.</p></a>
+  </div>
+</div>
+</div>
+
+<!-- À PROPOS -->
+<div class="section-wrap-cream" id="apropos">
+<div class="section">
+  <div class="apropos-grid">
+    <div class="apropos-img">
+      <span class="big-icon">🌍</span>
+      <h3>MalihaGroup</h3>
+      <p>Né de la volonté d'aider la diaspora africaine à réussir en Europe, et d'aider l'Afrique à se développer grâce aux opportunités créées par ce pont.</p>
+    </div>
+    <div class="apropos-text">
+      <div class="pill-tag">Qui sommes-nous</div>
+      <h2>Une plateforme créée pour vous</h2>
+      <p>MalihaGroup est né d'un constat simple : trop de personnes en Afrique manquent d'informations fiables pour réussir leur projet en Europe — et trop d'Africains en Europe ne savent pas comment créer des opportunités entre les deux continents.</p>
+      <p>Notre mission est de combler ce fossé : fournir des conseils concrets, mettre les bonnes personnes en relation, et créer des outils utiles — le tout gratuitement et en toute confiance.</p>
+      <div class="apropos-vals">
+        <div class="aval"><div class="aval-icon"><i class="ti ti-shield-check"></i></div><div class="aval-text"><strong>Fiabilité & Confiance</strong><span>Toutes les informations partagées sont vérifiées et régulièrement mises à jour.</span></div></div>
+        <div class="aval"><div class="aval-icon"><i class="ti ti-heart-handshake"></i></div><div class="aval-text"><strong>100% Gratuit</strong><span>Tous nos services de base sont et resteront gratuits pour toujours.</span></div></div>
+        <div class="aval"><div class="aval-icon"><i class="ti ti-world"></i></div><div class="aval-text"><strong>Communauté internationale</strong><span>Des membres sur les deux continents et partout dans le monde.</span></div></div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+<!-- CONSEILS -->
+<div class="section-wrap" id="conseils">
+<div class="section">
+  <div class="section-header">
+    <div class="pill-tag">Orientation & Conseils</div>
+    <h2>Vivre, étudier et travailler en Europe</h2>
+    <p>Des informations concrètes et vérifiées pour vos projets en Allemagne et dans toute l'Europe</p>
+  </div>
+  <div class="conseils-grid">
+    <div class="ccard">
+      <div class="ccard-header"><i class="ti ti-plane"></i><h3>Voyager en Europe</h3></div>
+      <div class="ccard-body"><ul>
+        <li>Types de visas Schengen : touristique, étudiant, travail, famille</li>
+        <li>Démarches ambassades et consulats — documents requis, délais</li>
+        <li>Assurance voyage obligatoire et couverture médicale minimale</li>
+        <li>Astuces vols moins chers : Skyscanner, Google Flights, dates flexibles</li>
+        <li>Hébergement temporaire à l'arrivée : AirBnB, hostels, contacts communauté</li>
+        <li>Arrivée en Europe : premiers réflexes administratifs dans les 48h</li>
+      </ul></div>
+      <a class="ccard-link" href="#contact">Poser une question →</a>
+    </div>
+    <div class="ccard">
+      <div class="ccard-header"><i class="ti ti-building-skyscraper"></i><h3>S'installer en Allemagne</h3></div>
+      <div class="ccard-body"><ul>
+        <li>L'Anmeldung : inscription obligatoire à la mairie dès l'arrivée</li>
+        <li>Numéro fiscal et numéro de sécurité sociale : comment les obtenir</li>
+        <li>Ouvrir un compte bancaire : N26, DKB, Commerzbank (sans rendez-vous)</li>
+        <li>Logement : WG-Gesucht, ImmoScout24, résidences étudiantes (Studentenwerk)</li>
+        <li>Apprendre l'allemand : Goethe Institut, Volkshochschule (VHS), Duolingo, Babbel</li>
+        <li>Carte de séjour (Aufenthaltserlaubnis) — procédure et renouvellement</li>
+      </ul></div>
+      <a class="ccard-link" href="#contact">Poser une question →</a>
+    </div>
+    <div class="ccard">
+      <div class="ccard-header"><i class="ti ti-briefcase"></i><h3>Travailler en Europe</h3></div>
+      <div class="ccard-body"><ul>
+        <li>Secteurs qui recrutent : santé, informatique, BTP, logistique, hôtellerie-restauration</li>
+        <li>CV Europass, lettre de motivation, entretiens : les codes européens</li>
+        <li>Portails emploi : Indeed, LinkedIn, Stepstone, Bundesagentur für Arbeit</li>
+        <li>Reconnaissance des diplômes africains en Europe (ENIC-NARIC, Anabin)</li>
+        <li>Droits du travailleur : salaire minimum, contrats, congés, retraite</li>
+        <li>Créer son entreprise en Allemagne : Gewerbeanmeldung, UG, GmbH</li>
+      </ul></div>
+      <a class="ccard-link" href="#contact">Poser une question →</a>
+    </div>
+    <div class="ccard">
+      <div class="ccard-header"><i class="ti ti-certificate"></i><h3>Études & Formations</h3></div>
+      <div class="ccard-body"><ul>
+        <li>L'Ausbildung (apprentissage dual allemand) — comment s'inscrire et trouver une entreprise</li>
+        <li>Bourses DAAD (Allemagne), Erasmus+, Campus France, bourses nationales</li>
+        <li>Équivalence des diplômes africains pour intégrer une université européenne</li>
+        <li>Formations professionnelles reconnues : BTS, Licence pro, Master en alternance</li>
+        <li>Cours en ligne certifiés avec financement : Coursera, FutureLearn, OpenClassrooms</li>
+        <li>Prépa allemand : TestDaF, DSH — seuils requis et centres de préparation</li>
+      </ul></div>
+      <a class="ccard-link" href="#contact">Poser une question →</a>
+    </div>
+    <div class="ccard">
+      <div class="ccard-header"><i class="ti ti-home"></i><h3>Vie quotidienne en Europe</h3></div>
+      <div class="ccard-body"><ul>
+        <li>Système de santé : Krankenkasse obligatoire en Allemagne, médecin généraliste</li>
+        <li>Scolariser ses enfants : système scolaire européen, inscriptions gratuites</li>
+        <li>Transports : abonnement mensuel, Deutschlandticket (49€/mois), vélo</li>
+        <li>Forfaits téléphoniques abordables : Aldi Talk, Lebara, Lycamobile</li>
+        <li>Envoyer de l'argent en Afrique : Wise, Wave, Orange Money, Remitly</li>
+        <li>Associations africaines en Europe : trouver votre communauté</li>
+      </ul></div>
+      <a class="ccard-link" href="#contact">Poser une question →</a>
+    </div>
+    <div class="ccard">
+      <div class="ccard-header"><i class="ti ti-file-text"></i><h3>Procédures administratives</h3></div>
+      <div class="ccard-body"><ul>
+        <li>Demande d'asile en Europe : procédure Dublin, droits, délais</li>
+        <li>Regroupement familial : conditions, justificatifs, délais moyens</li>
+        <li>Naturalisation en Allemagne : 5 ans minimum, test de langue, B1 requis</li>
+        <li>Légalisation et apostille de documents africains pour usage en Europe</li>
+        <li>Permis de conduire africain : conversion en permis européen</li>
+        <li>Protection contre les arnaques à la migration — comment se protéger</li>
+      </ul></div>
+      <a class="ccard-link" href="#contact">Poser une question →</a>
+    </div>
+  </div>
+</div>
+</div>
+
+<!-- ÉCOLES -->
+<div class="section-wrap-cream" id="ecoles">
+<div class="section">
+  <div class="section-header">
+    <div class="pill-tag">Écoles & Universités</div>
+    <h2>Établissements recommandés en Europe</h2>
+    <p>Sélection d'écoles et universités francophones, anglophones et bilingues — avec infos bourses</p>
+  </div>
+  <div class="ecoles-tabs">
+    <div class="etab active" onclick="filterEcoles('tous',this)">Toutes</div>
+    <div class="etab" onclick="filterEcoles('fr',this)">🇫🇷 France</div>
+    <div class="etab" onclick="filterEcoles('be',this)">🇧🇪 Belgique</div>
+    <div class="etab" onclick="filterEcoles('ch',this)">🇨🇭 Suisse</div>
+    <div class="etab" onclick="filterEcoles('de',this)">🇩🇪 Allemagne</div>
+    <div class="etab" onclick="filterEcoles('uk',this)">🇬🇧 Royaume-Uni</div>
+    <div class="etab" onclick="filterEcoles('nl',this)">🇳🇱 Pays-Bas</div>
+    <div class="etab" onclick="filterEcoles('ca',this)">🇨🇦 Canada</div>
+    <div class="etab" onclick="filterEcoles('ie',this)">🇮🇪 Irlande</div>
+  </div>
+  <div class="ecoles-grid" id="ecoles-grid">
+    <div class="ecard visible" data-cat="fr"><div class="ecard-country">🇫🇷 Paris, France</div><h4>Université Paris-Sorbonne (Paris IV)</h4><p>L'une des plus prestigieuses universités francophones. Lettres, sciences humaines, langues. Très accessible aux étudiants africains via Campus France.</p><div class="ecard-tags"><span class="etag gold">Campus France</span><span class="etag">Lettres</span><span class="etag">SHS</span></div></div>
+    <div class="ecard visible" data-cat="fr"><div class="ecard-country">🇫🇷 Paris, France</div><h4>Sciences Po Paris</h4><p>Excellence en sciences politiques, relations internationales, économie. Programme d'accès pour lycéens de ZEP en Afrique.</p><div class="ecard-tags"><span class="etag gold">Bourse d'accès</span><span class="etag">Politique</span><span class="etag">Relations Int.</span></div></div>
+    <div class="ecard visible" data-cat="fr"><div class="ecard-country">🇫🇷 Lyon, France</div><h4>Université Claude Bernard Lyon 1</h4><p>Référence en médecine, pharmacie, sciences et technologies. Fort taux d'accueil international. Bourses Excellence pour Africains.</p><div class="ecard-tags"><span class="etag gold">Bourse Excellence</span><span class="etag">Médecine</span><span class="etag">Sciences</span></div></div>
+    <div class="ecard visible" data-cat="fr"><div class="ecard-country">🇫🇷 Toulouse, France</div><h4>Université Toulouse Capitole (UT1)</h4><p>Droit, économie, gestion. Ville à coût de vie raisonnable, grande communauté africaine. Simplification des démarches Campus France.</p><div class="ecard-tags"><span class="etag">Droit</span><span class="etag">Économie</span><span class="etag">Gestion</span></div></div>
+    <div class="ecard visible" data-cat="fr"><div class="ecard-country">🇫🇷 Grenoble, France</div><h4>Université Grenoble Alpes</h4><p>Forte en informatique, ingénierie, langues. Ville universitaire dynamique. Partenariats avec plusieurs universités africaines.</p><div class="ecard-tags"><span class="etag gold">Partenariats Afrique</span><span class="etag">Informatique</span><span class="etag">Ingénierie</span></div></div>
+    <div class="ecard visible" data-cat="be"><div class="ecard-country">🇧🇪 Bruxelles, Belgique</div><h4>Université Libre de Bruxelles (ULB)</h4><p>Grande université francophone très ouverte aux étudiants africains. Sciences, droit, médecine, ingénierie. Frais moins élevés qu'en France.</p><div class="ecard-tags"><span class="etag gold">Bourse ULB-Afrique</span><span class="etag">Toutes filières</span></div></div>
+    <div class="ecard visible" data-cat="be"><div class="ecard-country">🇧🇪 Louvain-la-Neuve, Belgique</div><h4>UCLouvain — Université Catholique de Louvain</h4><p>Très bien classée, solide en ingénierie, médecine, sciences. Programme de bourses spécial Afrique subsaharienne très actif.</p><div class="ecard-tags"><span class="etag gold">Bourses Afrique SSA</span><span class="etag">Ingénierie</span><span class="etag">Médecine</span></div></div>
+    <div class="ecard visible" data-cat="be"><div class="ecard-country">🇧🇪 Liège, Belgique</div><h4>Université de Liège (ULiège)</h4><p>Tradition d'accueil des étudiants africains, partenariats avec RDC, Sénégal, Cameroun. Vétérinaire, architecture, sciences appliquées.</p><div class="ecard-tags"><span class="etag">Vétérinaire</span><span class="etag">Architecture</span><span class="etag">Sciences</span></div></div>
+    <div class="ecard visible" data-cat="ch"><div class="ecard-country">🇨🇭 Genève, Suisse</div><h4>Université de Genève (UNIGE)</h4><p>Siège des organisations internationales (ONU, OMS, CICR). Droit international, relations internationales, médecine, sciences sociales.</p><div class="ecard-tags"><span class="etag gold">ONU / OMS</span><span class="etag">Droit Int.</span><span class="etag">RI</span></div></div>
+    <div class="ecard visible" data-cat="ch"><div class="ecard-country">🇨🇭 Lausanne, Suisse</div><h4>EPFL — École Polytechnique Fédérale</h4><p>Top 15 mondial en ingénierie et technologie. Cours en anglais et français. Bourses d'excellence pour étudiants brillants du monde entier.</p><div class="ecard-tags"><span class="etag gold">Top 15 mondial</span><span class="etag">Ingénierie</span><span class="etag">Tech</span></div></div>
+    <div class="ecard visible" data-cat="ch"><div class="ecard-country">🇨🇭 Fribourg, Suisse</div><h4>Université de Fribourg</h4><p>Bilingue français-allemand. Droit, lettres, sciences économiques. Idéale pour maîtriser les deux langues en une seule formation.</p><div class="ecard-tags"><span class="etag">Bilingue FR/DE</span><span class="etag">Droit</span><span class="etag">Économie</span></div></div>
+    <div class="ecard visible" data-cat="de"><div class="ecard-country">🇩🇪 Berlin, Allemagne</div><h4>Freie Universität Berlin (FU Berlin)</h4><p>Université d'excellence — politiques, histoire, droit, médecine. Nombreux programmes en anglais. Bourse DAAD disponible.</p><div class="ecard-tags"><span class="etag gold">Bourse DAAD</span><span class="etag">Sciences Po</span><span class="etag">Médecine</span></div></div>
+    <div class="ecard visible" data-cat="de"><div class="ecard-country">🇩🇪 Munich, Allemagne</div><h4>Ludwig-Maximilians-Universität (LMU)</h4><p>Top 3 allemande. Médecine, droit, sciences naturelles, économie. Frais d'inscription très faibles (environ 150€/semestre).</p><div class="ecard-tags"><span class="etag gold">Frais minimes</span><span class="etag">Médecine</span><span class="etag">Droit</span></div></div>
+    <div class="ecard visible" data-cat="de"><div class="ecard-country">🇩🇪 Hambourg, Allemagne</div><h4>Universität Hamburg</h4><p>Forte en économie, logistique, sciences marines. Ville portuaire, carrefour commercial international. Excellents débouchés.</p><div class="ecard-tags"><span class="etag">Économie</span><span class="etag">Logistique</span><span class="etag">Maritime</span></div></div>
+    <div class="ecard visible" data-cat="de"><div class="ecard-country">🇩🇪 Cologne, Allemagne</div><h4>Universität zu Köln</h4><p>Grande université en économie et droit. Quatrième plus grande d'Allemagne. Frais très faibles, bonne insertion professionnelle.</p><div class="ecard-tags"><span class="etag gold">Frais réduits</span><span class="etag">Économie</span><span class="etag">Droit</span></div></div>
+    <div class="ecard visible" data-cat="de"><div class="ecard-country">🇩🇪 Frankfurt, Allemagne</div><h4>Goethe-Universität Frankfurt</h4><p>Forte en finance, économie, médecine. Proche du plus grand centre financier d'Europe continentale. Stage facilité en banques et grandes entreprises.</p><div class="ecard-tags"><span class="etag">Finance</span><span class="etag">Banque</span><span class="etag">Médecine</span></div></div>
+    <div class="ecard visible" data-cat="uk"><div class="ecard-country">🇬🇧 Londres, Royaume-Uni</div><h4>University College London (UCL)</h4><p>Top 10 mondial, très internationale. Médecine, droit, ingénierie, architecture. Forte communauté africaine et programme de bourses.</p><div class="ecard-tags"><span class="etag gold">Top 10 mondial</span><span class="etag">Toutes filières</span></div></div>
+    <div class="ecard visible" data-cat="uk"><div class="ecard-country">🇬🇧 Manchester, Royaume-Uni</div><h4>University of Manchester</h4><p>Excellente en économie, commerce, sciences. Bourse Commonwealth pour étudiants africains très active et bien dotée.</p><div class="ecard-tags"><span class="etag gold">Bourse Commonwealth</span><span class="etag">Business</span><span class="etag">Sciences</span></div></div>
+    <div class="ecard visible" data-cat="uk"><div class="ecard-country">🇬🇧 Édimbourg, Écosse</div><h4>University of Edinburgh</h4><p>Prestige mondial, cadre historique exceptionnel. Médecine vétérinaire, droit, informatique, sciences sociales. Bourses spécifiques Afrique.</p><div class="ecard-tags"><span class="etag">Médecine</span><span class="etag">Informatique</span><span class="etag">Droit</span></div></div>
+    <div class="ecard visible" data-cat="nl"><div class="ecard-country">🇳🇱 Amsterdam, Pays-Bas</div><h4>University of Amsterdam (UvA)</h4><p>Quasi entièrement en anglais, très internationale. Business, communication, sciences politiques, psychologie. Visa néerlandais possible.</p><div class="ecard-tags"><span class="etag">100% Anglais</span><span class="etag">Business</span><span class="etag">Communication</span></div></div>
+    <div class="ecard visible" data-cat="nl"><div class="ecard-country">🇳🇱 Eindhoven, Pays-Bas</div><h4>TU/e — Technische Universiteit Eindhoven</h4><p>Top école d'ingénierie en Europe. Forte en design industriel, ingénierie électrique, data science. Nombreuses bourses Holland Scholarship.</p><div class="ecard-tags"><span class="etag gold">Holland Scholarship</span><span class="etag">Ingénierie</span><span class="etag">Data</span></div></div>
+    <div class="ecard visible" data-cat="ca"><div class="ecard-country">🇨🇦 Montréal, Canada</div><h4>Université de Montréal (UdeM)</h4><p>Seconde université francophone au monde. Médecine, droit, sciences. Immigration Canada (PEQ) facilitée après l'obtention du diplôme.</p><div class="ecard-tags"><span class="etag gold">Immigration facilitée</span><span class="etag">Médecine</span><span class="etag">Droit</span></div></div>
+    <div class="ecard visible" data-cat="ca"><div class="ecard-country">🇨🇦 Québec, Canada</div><h4>Université Laval</h4><p>Agriculture, sciences de l'éducation, génie. Bourses d'excellence pour Africains. Coût de vie bien inférieur à la France.</p><div class="ecard-tags"><span class="etag gold">Bourse Excellence</span><span class="etag">Agriculture</span><span class="etag">Éducation</span></div></div>
+    <div class="ecard visible" data-cat="ie"><div class="ecard-country">🇮🇪 Dublin, Irlande</div><h4>University College Dublin (UCD)</h4><p>Passerelle vers l'Irlande et le marché anglophone mondial. Agriculture, commerce, ingénierie, droit. Visa irlandais ouvert aux étudiants africains.</p><div class="ecard-tags"><span class="etag gold">Visa irlandais</span><span class="etag">Ingénierie</span><span class="etag">Commerce</span></div></div>
+    <div class="ecard visible" data-cat="ie"><div class="ecard-country">🇮🇪 Cork, Irlande</div><h4>University College Cork (UCC)</h4><p>Spécialisée en sciences alimentaires, médecine, pharmacie, droit. Ville à coût de vie moins élevé que Dublin. Communauté internationale active.</p><div class="ecard-tags"><span class="etag">Sciences alim.</span><span class="etag">Pharmacie</span><span class="etag">Droit</span></div></div>
+  </div>
+  <div class="info-box info-box-gold">
+    <i class="ti ti-info-circle"></i>
+    <span><strong>Besoin d'aide pour choisir votre école ?</strong> Nous vous guidons selon votre profil, vos diplômes actuels et votre budget. <a href="#contact" style="color:var(--green);font-weight:500;">Contactez-nous gratuitement →</a></span>
+  </div>
+</div>
+</div>
+
+<!-- BUSINESS -->
+<div class="section-wrap" id="business">
+<div class="section">
+  <div class="section-header">
+    <div class="pill-tag">Idées Business</div>
+    <h2>Opportunités Afrique ↔ Europe</h2>
+    <p>Des idées concrètes et rentables entre les deux continents — avec niveau de potentiel estimé</p>
+  </div>
+  <div class="biz-grid">
+    <div class="bizcard"><div class="bizcard-flag">🥦</div><h4>Export produits alimentaires africains</h4><p>Karité, moringa, baobab, noix de cajou, piments séchés — forte demande dans les épiceries africaines et bio en Europe. Marge 200-400%.</p><div class="biz-potential"><span style="font-size:11px;color:var(--muted);min-width:60px">Potentiel</span><div class="biz-bar"><div class="biz-fill" style="width:90%"></div></div><span style="font-size:12px;font-weight:500;color:var(--gold)">Élevé</span></div></div>
+    <div class="bizcard"><div class="bizcard-flag">👗</div><h4>Mode & Artisanat africain en Europe</h4><p>Vente en ligne de tissus wax, kente, bogolan, bijoux, sculpture. Via Etsy, boutique en ligne, marchés artisanaux. Communauté diaspora très acheteuse.</p><div class="biz-potential"><span style="font-size:11px;color:var(--muted);min-width:60px">Potentiel</span><div class="biz-bar"><div class="biz-fill" style="width:82%"></div></div><span style="font-size:12px;font-weight:500;color:var(--gold)">Très bon</span></div></div>
+    <div class="bizcard"><div class="bizcard-flag">💻</div><h4>Services numériques depuis l'Afrique</h4><p>Développement web, graphisme, traduction, community management pour clients européens — coût africain, qualité européenne. Upwork, Malt, Fiverr.</p><div class="biz-potential"><span style="font-size:11px;color:var(--muted);min-width:60px">Potentiel</span><div class="biz-bar"><div class="biz-fill" style="width:95%"></div></div><span style="font-size:12px;font-weight:500;color:var(--gold)">Excellent</span></div></div>
+    <div class="bizcard"><div class="bizcard-flag">🏗️</div><h4>Import matériaux construction</h4><p>Carrelage, robinetterie, outillage, machines — achetés en Europe ou Chine via l'Europe, revendus en Afrique avec 150-300% de marge.</p><div class="biz-potential"><span style="font-size:11px;color:var(--muted);min-width:60px">Potentiel</span><div class="biz-bar"><div class="biz-fill" style="width:78%"></div></div><span style="font-size:12px;font-weight:500;color:var(--gold)">Bon</span></div></div>
+    <div class="bizcard"><div class="bizcard-flag">🌿</div><h4>Agriculture & Agro-transformation</h4><p>Transformation locale (huile de palme bio, jus, farine de manioc) pour export vers diaspora européenne et enseignes bio. Label AOP possible.</p><div class="biz-potential"><span style="font-size:11px;color:var(--muted);min-width:60px">Potentiel</span><div class="biz-bar"><div class="biz-fill" style="width:88%"></div></div><span style="font-size:12px;font-weight:500;color:var(--gold)">Très élevé</span></div></div>
+    <div class="bizcard"><div class="bizcard-flag">📱</div><h4>Coaching & Formation en ligne</h4><p>Vendre vos compétences via cours en ligne — langue, cuisine africaine, danse, code, comptabilité — à des clients sur les deux continents. Teachable, Udemy.</p><div class="biz-potential"><span style="font-size:11px;color:var(--muted);min-width:60px">Potentiel</span><div class="biz-bar"><div class="biz-fill" style="width:85%"></div></div><span style="font-size:12px;font-weight:500;color:var(--gold)">Élevé</span></div></div>
+    <div class="bizcard"><div class="bizcard-flag">✈️</div><h4>Agence de voyage Afrique–Europe</h4><p>Packages étudiants, voyages d'affaires, tourisme affinitaire Afrique. Partenariats compagnies aériennes et hôtels. Niche peu concurrentielle.</p><div class="biz-potential"><span style="font-size:11px;color:var(--muted);min-width:60px">Potentiel</span><div class="biz-bar"><div class="biz-fill" style="width:72%"></div></div><span style="font-size:12px;font-weight:500;color:var(--gold)">Moyen–Bon</span></div></div>
+    <div class="bizcard"><div class="bizcard-flag">🚗</div><h4>Export véhicules d'occasion vers Afrique</h4><p>Acheter des voitures fiables en Europe (Toyota, Mercedes, Peugeot) et exporter vers Afrique occidentale — forte demande et marché peu régulé.</p><div class="biz-potential"><span style="font-size:11px;color:var(--muted);min-width:60px">Potentiel</span><div class="biz-bar"><div class="biz-fill" style="width:80%"></div></div><span style="font-size:12px;font-weight:500;color:var(--gold)">Très bon</span></div></div>
+    <div class="bizcard"><div class="bizcard-flag">💰</div><h4>Services financiers & Transferts</h4><p>Tontines numériques, épargne collective diaspora, conseil pour investissements immobiliers en Afrique. Forte demande non satisfaite.</p><div class="biz-potential"><span style="font-size:11px;color:var(--muted);min-width:60px">Potentiel</span><div class="biz-bar"><div class="biz-fill" style="width:90%"></div></div><span style="font-size:12px;font-weight:500;color:var(--gold)">Excellent</span></div></div>
+    <div class="bizcard"><div class="bizcard-flag">🏥</div><h4>Santé & Bien-être africain en Europe</h4><p>Centres de soins capillaires afro, cosmétiques naturels africains, médecine traditionnelle (tisanes, plantes). Marché en pleine explosion en Europe.</p><div class="biz-potential"><span style="font-size:11px;color:var(--muted);min-width:60px">Potentiel</span><div class="biz-bar"><div class="biz-fill" style="width:87%"></div></div><span style="font-size:12px;font-weight:500;color:var(--gold)">Très bon</span></div></div>
+  </div>
+  <div class="info-box info-box-gold" style="margin-top:1.5rem;">
+    <i class="ti ti-bulb"></i>
+    <span><strong>Vous avez une idée de business ?</strong> MalihaGroup vous met en relation avec des partenaires, investisseurs ou clients potentiels en Europe et en Afrique. <a href="#contact" style="color:var(--green);font-weight:500;">Parlez-nous de votre projet →</a></span>
+  </div>
+</div>
+</div>
+
+<!-- RENCONTRE -->
+<div class="section-wrap-cream" id="rencontre">
+<div class="section">
+  <div class="section-header">
+    <div class="pill-tag">Réseau & Rencontres</div>
+    <h2>Connectez-vous avec le monde</h2>
+    <p>Mettez-vous en relation avec des membres en Afrique, en Europe et partout dans le monde</p>
+  </div>
+  <div class="rencontre-banner">
+    <h3>🌍 Afrique ↔ Europe ↔ Monde</h3>
+    <p>Que vous cherchiez un partenaire business, un colocataire à Berlin, un mentor dans votre domaine ou de bons contacts — notre réseau est là pour vous.</p>
+    <div class="country-pills">
+      <span class="cpill">🇲🇱 Mali</span><span class="cpill">🇸🇳 Sénégal</span><span class="cpill">🇨🇮 Côte d'Ivoire</span><span class="cpill">🇨🇲 Cameroun</span><span class="cpill">🇨🇩 Congo RDC</span><span class="cpill">🇬🇳 Guinée</span><span class="cpill">🇧🇫 Burkina Faso</span><span class="cpill">🇳🇬 Nigeria</span><span class="cpill">🇬🇭 Ghana</span><span class="cpill">🇲🇦 Maroc</span><span class="cpill">🇩🇿 Algérie</span><span class="cpill">🇩🇪 Allemagne</span><span class="cpill">🇫🇷 France</span><span class="cpill">🇧🇪 Belgique</span><span class="cpill">🇨🇭 Suisse</span><span class="cpill">🇬🇧 UK</span><span class="cpill">🇳🇱 Pays-Bas</span><span class="cpill">🇮🇹 Italie</span>
+    </div>
+    <a href="#contact" class="btn-gold">Créer mon profil réseau</a>
+  </div>
+  <p style="font-size:13.5px;color:var(--muted);margin-bottom:1.2rem;">Quelques membres de notre réseau — rejoignez-les !</p>
+  <div class="profile-grid">
+    <div class="pcard"><div class="avatar av-b">AM</div><h4>Amadou M.</h4><p>Étudiant Master Informatique</p><div class="pcard-loc">📍 Berlin, Allemagne</div><a class="pcard-btn" href="#contact">Contacter</a></div>
+    <div class="pcard"><div class="avatar av-g">FK</div><h4>Fatou K.</h4><p>Entrepreneuse mode africaine</p><div class="pcard-loc">📍 Dakar, Sénégal</div><a class="pcard-btn" href="#contact">Contacter</a></div>
+    <div class="pcard"><div class="avatar av-t">IB</div><h4>Ibrahim B.</h4><p>Ingénieur Génie Civil</p><div class="pcard-loc">📍 Bruxelles, Belgique</div><a class="pcard-btn" href="#contact">Contacter</a></div>
+    <div class="pcard"><div class="avatar av-a">MK</div><h4>Mariam K.</h4><p>Coach & Formatrice en ligne</p><div class="pcard-loc">📍 Abidjan, Côte d'Ivoire</div><a class="pcard-btn" href="#contact">Contacter</a></div>
+    <div class="pcard"><div class="avatar av-p">SO</div><h4>Seydou O.</h4><p>Commerçant import/export</p><div class="pcard-loc">📍 Hamburg, Allemagne</div><a class="pcard-btn" href="#contact">Contacter</a></div>
+    <div class="pcard"><div class="avatar av-g">AN</div><h4>Awa N.</h4><p>Médecin en formation</p><div class="pcard-loc">📍 Lyon, France</div><a class="pcard-btn" href="#contact">Contacter</a></div>
+    <div class="pcard"><div class="avatar av-b">KT</div><h4>Kofi T.</h4><p>Développeur web freelance</p><div class="pcard-loc">📍 Accra, Ghana</div><a class="pcard-btn" href="#contact">Contacter</a></div>
+    <div class="pcard"><div class="avatar av-a">HF</div><h4>Hawa F.</h4><p>Juriste spécialiste immigration</p><div class="pcard-loc">📍 Paris, France</div><a class="pcard-btn" href="#contact">Contacter</a></div>
+    <div class="pcard"><div class="avatar av-t">DC</div><h4>Didier C.</h4><p>Entrepreneur agro-alimentaire</p><div class="pcard-loc">📍 Douala, Cameroun</div><a class="pcard-btn" href="#contact">Contacter</a></div>
+    <div class="pcard"><div class="avatar av-p">YB</div><h4>Yaye B.</h4><p>Étudiante en médecine</p><div class="pcard-loc">📍 Bruxelles, Belgique</div><a class="pcard-btn" href="#contact">Contacter</a></div>
+  </div>
+</div>
+</div>
+
+<!-- MONÉTISATION -->
+<div class="section-wrap" id="monetisation">
+<div class="section">
+  <div class="section-header">
+    <div class="pill-tag">Monétisation Réseaux Sociaux</div>
+    <h2>Gagnez de l'argent avec vos réseaux</h2>
+    <p>Nous vous aidons à monétiser vos comptes Facebook, TikTok, YouTube et Instagram — même depuis l'Afrique</p>
+  </div>
+  <div class="mono-grid">
+    <div class="mono-card"><div class="mono-logo">📘</div><h4>Facebook & Reels</h4><p>In-stream ads, Reels Bonus, Étoiles (Stars). Critères : 10 000 abonnés + 600 000 minutes vues en 60 jours.</p><div class="mono-steps"><div class="mstep"><div class="mstep-num">1</div><span>Créer une Page pro (pas un profil perso)</span></div><div class="mstep"><div class="mstep-num">2</div><span>Atteindre les critères d'éligibilité</span></div><div class="mstep"><div class="mstep-num">3</div><span>Activer Creator Studio + Monetization</span></div><div class="mstep"><div class="mstep-num">4</div><span>Connecter PayPal ou compte bancaire</span></div></div></div>
+    <div class="mono-card"><div class="mono-logo">🎵</div><h4>TikTok Creator Fund & Shop</h4><p>Creator Fund, LIVE Gifts, TikTok Shop. Critères : 10 000 abonnés + 100 000 vues dans les 30 jours.</p><div class="mono-steps"><div class="mstep"><div class="mstep-num">1</div><span>Passer en compte Creator ou Business</span></div><div class="mstep"><div class="mstep-num">2</div><span>Rejoindre le Creator Marketplace</span></div><div class="mstep"><div class="mstep-num">3</div><span>Activer les LIVE pour cadeaux virtuels</span></div><div class="mstep"><div class="mstep-num">4</div><span>Configurer TikTok Shop si en Europe</span></div></div></div>
+    <div class="mono-card"><div class="mono-logo">▶️</div><h4>YouTube Partner Program</h4><p>Le plus rentable. Critères : 1 000 abonnés + 4 000 heures de visionnage. Revenus pub, memberships, super chat.</p><div class="mono-steps"><div class="mstep"><div class="mstep-num">1</div><span>Créer une chaîne sur une niche précise</span></div><div class="mstep"><div class="mstep-num">2</div><span>Atteindre les seuils requis (3-6 mois)</span></div><div class="mstep"><div class="mstep-num">3</div><span>Activer AdSense + compte bancaire</span></div><div class="mstep"><div class="mstep-num">4</div><span>Ajouter Memberships, Merch, Super Thanks</span></div></div></div>
+    <div class="mono-card"><div class="mono-logo">📸</div><h4>Instagram & Threads</h4><p>Badges LIVE, abonnements, partenariats de marque. Instagram = réseau de collaborations commerciales.</p><div class="mono-steps"><div class="mstep"><div class="mstep-num">1</div><span>Passer en compte Créateur Professionnel</span></div><div class="mstep"><div class="mstep-num">2</div><span>Activer Badges LIVE (1 000 abonnés min.)</span></div><div class="mstep"><div class="mstep-num">3</div><span>Rejoindre l'outil de collaboration de marques</span></div><div class="mstep"><div class="mstep-num">4</div><span>S'inscrire sur réseaux d'affiliation Amazon</span></div></div></div>
+    <div class="mono-card"><div class="mono-logo">📦</div><h4>Dropshipping & Affiliation</h4><p>Vendre des produits sans stock via Amazon, AliExpress, Jumia. Commission par vente, sans gérer livraison ni inventaire.</p><div class="mono-steps"><div class="mstep"><div class="mstep-num">1</div><span>Choisir un créneau porteur (beauté, high-tech)</span></div><div class="mstep"><div class="mstep-num">2</div><span>Ouvrir une boutique Shopify ou WooCommerce</span></div><div class="mstep"><div class="mstep-num">3</div><span>Rejoindre Amazon Associates, Jumia Affiliates</span></div><div class="mstep"><div class="mstep-num">4</div><span>Promouvoir via vos réseaux sociaux existants</span></div></div></div>
+    <div class="mono-card"><div class="mono-logo">🎙️</div><h4>Podcast & Newsletter</h4><p>Spotify for Podcasters, Substack, Patreon — créer un contenu régulier et monétiser via abonnements, publicités ou soutiens.</p><div class="mono-steps"><div class="mstep"><div class="mstep-num">1</div><span>Lancer un podcast sur un sujet de niche</span></div><div class="mstep"><div class="mstep-num">2</div><span>S'inscrire Spotify for Podcasters + Apple</span></div><div class="mstep"><div class="mstep-num">3</div><span>Activer Patreon pour abonnements premium</span></div><div class="mstep"><div class="mstep-num">4</div><span>Chercher des sponsors dans votre domaine</span></div></div></div>
+  </div>
+  <div class="info-box info-box-gold" style="margin-top:1.5rem;">
+    <i class="ti ti-info-circle"></i>
+    <span><strong>Besoin d'aide personnalisée ?</strong> Nous vous accompagnons pas à pas pour monétiser votre compte selon votre pays et votre audience. <a href="#contact" style="color:var(--green);font-weight:500;">Prendre contact →</a></span>
+  </div>
+</div>
+</div>
+
+<!-- MARKETPLACE -->
+<div class="section-wrap-cream" id="marketplace">
+<div class="section">
+  <div class="section-header">
+    <div class="pill-tag">Marketplace & Commandes</div>
+    <h2>Achetez, vendez, commandez</h2>
+    <p>Articles, accessoires, voitures d'occasion — et notre service "Je cherche pour toi" en Europe</p>
+  </div>
+
+  <!-- Déposer annonce toggle -->
+  <div class="annonce-toggle">
+    <p style="font-size:13.5px;color:var(--muted);">Vous avez quelque chose à vendre ? Déposez votre annonce gratuitement.</p>
+    <button class="btn-gold" style="font-size:13px;padding:10px 20px;" onclick="toggleAnnonce()"><i class="ti ti-plus" style="vertical-align:-2px;margin-right:5px;"></i>Déposer une annonce</button>
+  </div>
+  <div class="annonce-box" id="annonceBox">
+    <p style="color:rgba(255,255,255,.7);font-size:13.5px;margin-bottom:1.2rem;font-family:'Playfair Display',serif;font-size:17px;">Publier une annonce</p>
+    <div class="annonce-form">
+      <div class="annonce-row">
+        <input type="text" placeholder="Titre de l'annonce"/>
+        <select><option value="">Catégorie</option><option>Voiture</option><option>Électronique</option><option>Mode & Accessoires</option><option>Maison & Mobilier</option><option>Autre article</option></select>
+      </div>
+      <div class="annonce-row">
+        <input type="text" placeholder="Prix (€, CFA, $...)"/>
+        <input type="text" placeholder="Ville / Pays"/>
+      </div>
+      <textarea placeholder="Description détaillée (état, caractéristiques, conditions de vente...)"></textarea>
+      <div class="annonce-row">
+        <input type="text" placeholder="Votre nom"/>
+        <input type="text" placeholder="WhatsApp / Email de contact"/>
+      </div>
+      <button class="btn-gold" style="padding:12px;border-radius:8px;font-size:14px;" onclick="showToast('✓ Annonce envoyée ! Publiée sous 24h après vérification.')">Publier mon annonce →</button>
+    </div>
+  </div>
+
+  <!-- Filtre et annonces -->
+  <div class="market-filter" style="margin-top:1.5rem;">
+    <div class="mfilt active" onclick="filterMarket('tous',this)">Tout voir</div>
+    <div class="mfilt" onclick="filterMarket('voiture',this)">🚗 Voitures</div>
+    <div class="mfilt" onclick="filterMarket('electronique',this)">📱 Électronique</div>
+    <div class="mfilt" onclick="filterMarket('mode',this)">👗 Mode</div>
+    <div class="mfilt" onclick="filterMarket('maison',this)">🏠 Maison</div>
+  </div>
+  <div class="market-grid" id="market-grid">
+    <div class="mcard" data-cat="voiture"><div class="mcard-img">🚗</div><div class="mcard-body"><h4>Toyota Corolla 2018</h4><p>130 000 km — Diesel — CT ok — Très bon état</p><div class="mcard-bottom"><span class="mcard-price">8 500 €</span><span class="mcard-loc">📍 Berlin</span></div><button class="mcard-contact" onclick="showToast('Contact envoyé pour Toyota Corolla 2018')">Contacter</button></div></div>
+    <div class="mcard" data-cat="voiture"><div class="mcard-img">🚙</div><div class="mcard-body"><h4>Mercedes Classe C 2016</h4><p>95 000 km — Essence — Full options — Carnet entretien</p><div class="mcard-bottom"><span class="mcard-price">14 900 €</span><span class="mcard-loc">📍 Hamburg</span></div><button class="mcard-contact" onclick="showToast('Contact envoyé pour Mercedes Classe C')">Contacter</button></div></div>
+    <div class="mcard" data-cat="voiture"><div class="mcard-img">🚐</div><div class="mcard-body"><h4>Peugeot Partner 2019</h4><p>Utilitaire — 88 000 km — Idéal commerce & transport</p><div class="mcard-bottom"><span class="mcard-price">9 200 €</span><span class="mcard-loc">📍 Bruxelles</span></div><button class="mcard-contact" onclick="showToast('Contact envoyé pour Peugeot Partner')">Contacter</button></div></div>
+    <div class="mcard" data-cat="voiture"><div class="mcard-img">🚕</div><div class="mcard-body"><h4>Toyota Land Cruiser 2015</h4><p>160 000 km — Diesel — 4x4 — Robuste, idéal export Afrique</p><div class="mcard-bottom"><span class="mcard-price">18 500 €</span><span class="mcard-loc">📍 Munich</span></div><button class="mcard-contact" onclick="showToast('Contact envoyé pour Land Cruiser')">Contacter</button></div></div>
+    <div class="mcard" data-cat="electronique"><div class="mcard-img">📱</div><div class="mcard-body"><h4>iPhone 14 Pro 256 Go</h4><p>Comme neuf — débloqué toutes SIM — avec accessoires d'origine</p><div class="mcard-bottom"><span class="mcard-price">650 €</span><span class="mcard-loc">📍 Paris</span></div><button class="mcard-contact" onclick="showToast('Contact envoyé pour iPhone 14 Pro')">Contacter</button></div></div>
+    <div class="mcard" data-cat="electronique"><div class="mcard-img">💻</div><div class="mcard-body"><h4>MacBook Air M2 2023</h4><p>8 Go RAM — 256 Go SSD — Parfait état — Sous garantie</p><div class="mcard-bottom"><span class="mcard-price">850 €</span><span class="mcard-loc">📍 Munich</span></div><button class="mcard-contact" onclick="showToast('Contact envoyé pour MacBook Air M2')">Contacter</button></div></div>
+    <div class="mcard" data-cat="electronique"><div class="mcard-img">📷</div><div class="mcard-body"><h4>Sony A6400 + objectif 18-135</h4><p>Caméra hybride — Excellent pour contenu YouTube/réseaux</p><div class="mcard-bottom"><span class="mcard-price">780 €</span><span class="mcard-loc">📍 Amsterdam</span></div><button class="mcard-contact" onclick="showToast('Contact envoyé pour Sony A6400')">Contacter</button></div></div>
+    <div class="mcard" data-cat="mode"><div class="mcard-img">👗</div><div class="mcard-body"><h4>Ensemble Bogolan artisanal Mali</h4><p>Fabriqué à Bamako — Taille M/L — Envoi international possible</p><div class="mcard-bottom"><span class="mcard-price">85 €</span><span class="mcard-loc">📍 Bamako</span></div><button class="mcard-contact" onclick="showToast('Contact envoyé pour ensemble Bogolan')">Contacter</button></div></div>
+    <div class="mcard" data-cat="mode"><div class="mcard-img">👟</div><div class="mcard-body"><h4>Nike Air Max 270 — T42</h4><p>Authentique — Neuf avec boîte — Acheté en Allemagne</p><div class="mcard-bottom"><span class="mcard-price">110 €</span><span class="mcard-loc">📍 Cologne</span></div><button class="mcard-contact" onclick="showToast('Contact envoyé pour Nike Air Max')">Contacter</button></div></div>
+    <div class="mcard" data-cat="maison"><div class="mcard-img">🛋️</div><div class="mcard-body"><h4>Salon complet IKEA</h4><p>Canapé + table basse + étagères — Excellent état — À emporter</p><div class="mcard-bottom"><span class="mcard-price">280 €</span><span class="mcard-loc">📍 Frankfurt</span></div><button class="mcard-contact" onclick="showToast('Contact envoyé pour salon IKEA')">Contacter</button></div></div>
+    <div class="mcard" data-cat="maison"><div class="mcard-img">🍳</div><div class="mcard-body"><h4>Électroménager cuisine complet</h4><p>Réfrigérateur + micro-ondes + machine à café — Bon état</p><div class="mcard-bottom"><span class="mcard-price">320 €</span><span class="mcard-loc">📍 Bruxelles</span></div><button class="mcard-contact" onclick="showToast('Contact envoyé pour électroménager')">Contacter</button></div></div>
+  </div>
+
+  <!-- CHERCHE POUR TOI -->
+  <div class="cherche-box">
+    <h3>🔍 Je cherche pour toi en Europe</h3>
+    <p>Décrivez ce que vous voulez — voiture, vêtement, électronique, logement, matériaux — et nous cherchons le meilleur prix en Europe pour vous.</p>
+    <div class="cherche-form">
+      <div class="cherche-row">
+        <input type="text" placeholder="Votre prénom"/>
+        <input type="text" placeholder="WhatsApp / Email"/>
+      </div>
+      <select><option value="">Catégorie du produit recherché</option><option>Voiture d'occasion</option><option>Électronique & High-tech</option><option>Vêtements & Mode</option><option>Mobilier & Maison</option><option>Matériaux de construction</option><option>Médicaments / Matériel médical</option><option>Pièces automobiles</option><option>Accessoires bébé & enfant</option><option>Autre produit</option></select>
+      <textarea placeholder="Décrivez précisément ce que vous cherchez : marque, modèle, taille, couleur, budget maximum, délai souhaité..."></textarea>
+      <button class="btn-gold" style="padding:12px;border-radius:8px;font-size:14px;" onclick="showToast('✓ Demande reçue ! Nous vous contactons sous 48h avec les meilleures offres.')">Envoyer ma demande →</button>
+    </div>
+  </div>
+</div>
+</div>
+
+<!-- TÉMOIGNAGES -->
+<div class="section-wrap" id="temoignages">
+<div class="section">
+  <div class="section-header">
+    <div class="pill-tag">Témoignages</div>
+    <h2>Ce que disent nos membres</h2>
+    <p>Des centaines de personnes ont déjà bénéficié de nos conseils et services</p>
+  </div>
+  <div class="temoignages-grid">
+    <div class="tcard"><div class="tcard-stars">★★★★★</div><p>"Grâce à MalihaGroup, j'ai trouvé une université en Belgique et obtenu une bourse. Le suivi était personnalisé et très professionnel. Je recommande à 100% !"</p><div class="tcard-author"><div class="tcard-avatar av-b">AM</div><div class="tcard-author-info"><strong>Amadou Maïga</strong><span>Étudiant — Bruxelles, Belgique (venu du Mali)</span></div></div></div>
+    <div class="tcard"><div class="tcard-stars">★★★★★</div><p>"J'avais une idée de business mais je ne savais pas par où commencer. MalihaGroup m'a aidée à structurer mon projet et à trouver un partenaire en France. Aujourd'hui mon entreprise tourne !"</p><div class="tcard-author"><div class="tcard-avatar av-g">FK</div><div class="tcard-author-info"><strong>Fatou Konaté</strong><span>Entrepreneuse — Dakar, Sénégal</span></div></div></div>
+    <div class="tcard"><div class="tcard-stars">★★★★★</div><p>"J'avais du mal à monétiser ma page Facebook depuis le Cameroun. Avec l'aide de MalihaGroup, j'ai atteint les critères en 3 mois et je génère maintenant un revenu mensuel stable."</p><div class="tcard-author"><div class="tcard-avatar av-t">IB</div><div class="tcard-author-info"><strong>Ibrahim Bello</strong><span>Créateur de contenu — Douala, Cameroun</span></div></div></div>
+    <div class="tcard"><div class="tcard-stars">★★★★★</div><p>"Le service 'Je cherche pour toi' est incroyable ! J'ai commandé une voiture d'occasion depuis Abidjan. Tout a été géré de A à Z, de la recherche jusqu'à l'expédition."</p><div class="tcard-author"><div class="tcard-avatar av-a">MK</div><div class="tcard-author-info"><strong>Mariam Kouyaté</strong><span>Commerçante — Abidjan, Côte d'Ivoire</span></div></div></div>
+    <div class="tcard"><div class="tcard-stars">★★★★★</div><p>"Le réseau MalihaGroup m'a permis de trouver un logement à Berlin avant même mon arrivée. J'ai été mis en contact avec un Malien installé là-bas depuis 5 ans. Précieux !"</p><div class="tcard-author"><div class="tcard-avatar av-p">SO</div><div class="tcard-author-info"><strong>Seydou Ouédraogo</strong><span>Ingénieur — Berlin, Allemagne (venu du Burkina)</span></div></div></div>
+    <div class="tcard"><div class="tcard-stars">★★★★★</div><p>"Les conseils sur l'Ausbildung m'ont tout changé. Je n'en avais jamais entendu parler. Aujourd'hui je fais mon apprentissage en Allemagne avec un salaire mensuel. Merci MalihaGroup !"</p><div class="tcard-author"><div class="tcard-avatar av-g">AN</div><div class="tcard-author-info"><strong>Awa Ndiaye</strong><span>En formation — Cologne, Allemagne (venue du Sénégal)</span></div></div></div>
+  </div>
+</div>
+</div>
+
+<!-- ACTUALITÉS / BLOG -->
+<div class="section-wrap-cream" id="actualites">
+<div class="section">
+  <div class="section-header">
+    <div class="pill-tag">Actualités & Conseils</div>
+    <h2>Nos derniers articles</h2>
+    <p>Conseils pratiques, actualités migration, opportunités et astuces pour la diaspora</p>
+  </div>
+  <div class="blog-grid">
+    <div class="blog-card">
+      <div class="blog-card-top">🇩🇪</div>
+      <span class="blog-cat cat-vert" style="margin:0 1.4rem .5rem;display:inline-block;">Conseils Europe</span>
+      <h4>L'Ausbildung en Allemagne : tout ce qu'il faut savoir en 2025</h4>
+      <p>Comment trouver une entreprise, les secteurs qui recrutent, le salaire, et les démarches pour les non-Européens.</p>
+      <div class="blog-card-meta">📅 Janvier 2025 · 5 min de lecture</div>
+    </div>
+    <div class="blog-card">
+      <div class="blog-card-top">💰</div>
+      <span class="blog-cat cat-gold" style="margin:0 1.4rem .5rem;display:inline-block;">Business</span>
+      <h4>5 business qui marchent vraiment entre l'Afrique et l'Europe en 2025</h4>
+      <p>Des exemples concrets de Maliens, Sénégalais et Ivoiriens qui ont réussi leur projet entrepreneurial transfrontalier.</p>
+      <div class="blog-card-meta">📅 Février 2025 · 7 min de lecture</div>
+    </div>
+    <div class="blog-card">
+      <div class="blog-card-top">📱</div>
+      <span class="blog-cat cat-blue" style="margin:0 1.4rem .5rem;display:inline-block;">Monétisation</span>
+      <h4>Monétiser YouTube depuis l'Afrique : guide complet étape par étape</h4>
+      <p>Tout ce qu'il faut savoir sur le YPP, AdSense, les pays éligibles et comment recevoir son argent en Afrique.</p>
+      <div class="blog-card-meta">📅 Mars 2025 · 8 min de lecture</div>
+    </div>
+    <div class="blog-card">
+      <div class="blog-card-top">🎓</div>
+      <span class="blog-cat cat-vert" style="margin:0 1.4rem .5rem;display:inline-block;">Études</span>
+      <h4>Les bourses DAAD 2025 : comment postuler et maximiser ses chances</h4>
+      <p>Les bourses DAAD sont parmi les plus généreuses d'Europe. Voici comment préparer un dossier solide.</p>
+      <div class="blog-card-meta">📅 Avril 2025 · 6 min de lecture</div>
+    </div>
+    <div class="blog-card">
+      <div class="blog-card-top">🚗</div>
+      <span class="blog-cat cat-gold" style="margin:0 1.4rem .5rem;display:inline-block;">Marketplace</span>
+      <h4>Acheter une voiture en Allemagne pour l'exporter en Afrique : guide 2025</h4>
+      <p>Les démarches douanières, les modèles les plus robustes, les prix et les pièges à éviter.</p>
+      <div class="blog-card-meta">📅 Avril 2025 · 9 min de lecture</div>
+    </div>
+    <div class="blog-card">
+      <div class="blog-card-top">🌍</div>
+      <span class="blog-cat cat-blue" style="margin:0 1.4rem .5rem;display:inline-block;">Réseau</span>
+      <h4>Pourquoi rejoindre un réseau de la diaspora africaine en Europe ?</h4>
+      <p>Logement, emploi, business, soutien moral — ce que nos membres ont obtenu grâce au réseau MalihaGroup.</p>
+      <div class="blog-card-meta">📅 Mai 2025 · 4 min de lecture</div>
+    </div>
+  </div>
+  <div style="text-align:center;margin-top:1.8rem;">
+    <a href="#contact" class="btn-outline" style="color:var(--text);border-color:var(--border);">Recevoir nos articles par email →</a>
+  </div>
+</div>
+</div>
+
+<!-- NEWSLETTER -->
+<div class="section-wrap">
+<div class="section" style="padding-top:0;">
+  <div class="newsletter-box">
+    <h3>Restez informé — Gratuitement</h3>
+    <p>Recevez nos conseils, opportunités et actualités directement dans votre boîte email. Pas de spam, juste de la valeur.</p>
+    <div class="newsletter-form">
+      <input type="email" placeholder="Votre adresse email"/>
+      <button onclick="showToast('✓ Inscription newsletter confirmée ! Bienvenue dans la communauté.')">S'abonner</button>
+    </div>
+  </div>
+</div>
+</div>
+
+<!-- FAQ -->
+<div class="section-wrap-cream" id="faq">
+<div class="section">
+  <div class="section-header">
+    <div class="pill-tag">Questions fréquentes</div>
+    <h2>FAQ — Vos questions, nos réponses</h2>
+    <p>Les questions les plus posées par notre communauté</p>
+  </div>
+  <div class="faq-list">
+    <div class="faq-item"><div class="faq-q" onclick="toggleFaq(this)">Quels sont les documents pour un visa étudiant en Allemagne ?<i class="ti ti-chevron-down"></i></div><div class="faq-a">Pour un visa étudiant en Allemagne, vous aurez besoin de : lettre d'admission d'une université allemande, preuve de financement (8 700€ sur un compte bloqué en Allemagne ou bourse officielle), assurance maladie valable, extrait de casier judiciaire, photos d'identité biométriques, passeport valide au moins 6 mois. Le délai de traitement est généralement de 4 à 8 semaines. Contactez-nous pour vérifier les exigences spécifiques à votre pays d'origine.</div></div>
+    <div class="faq-item"><div class="faq-q" onclick="toggleFaq(this)">Est-ce que MalihaGroup est vraiment gratuit ?<i class="ti ti-chevron-down"></i></div><div class="faq-a">Oui, tous nos services de base (conseils, orientation, réseau, marketplace, actualités) sont entièrement gratuits. Nous proposons uniquement des services premium optionnels sur demande (accompagnement personnalisé, recherche de produits "Je cherche pour toi", etc.) avec des tarifs transparents communiqués à l'avance. Vous ne paierez jamais rien sans avoir donné votre accord explicite.</div></div>
+    <div class="faq-item"><div class="faq-q" onclick="toggleFaq(this)">Comment puis-je rejoindre le réseau de mise en relation ?<i class="ti ti-chevron-down"></i></div><div class="faq-a">Pour rejoindre le réseau, il vous suffit de remplir le formulaire de contact en bas de page et de choisir "Rejoindre le réseau" comme objet. Précisez votre pays, votre domaine d'activité ou d'études, et ce que vous recherchez (partenaire, mentor, colocataire, contact professionnel…). Nous vous ajoutons à notre réseau et vous mettons en relation avec les membres pertinents sous 48h.</div></div>
+    <div class="faq-item"><div class="faq-q" onclick="toggleFaq(this)">L'Ausbildung en Allemagne, c'est possible si je parle peu allemand ?<i class="ti ti-chevron-down"></i></div><div class="faq-a">Un niveau B1-B2 en allemand est généralement requis pour intégrer une Ausbildung. Cependant, certains secteurs comme l'hôtellerie, la logistique ou le BTP acceptent des profils avec un niveau A2-B1 si la motivation est forte. Nous vous conseillons de commencer la formation en allemand au moins 6 mois avant votre départ via Duolingo, une Volkshochschule (VHS) ou des cours Goethe Institut dans votre ville. Contactez-nous pour un plan d'action personnalisé.</div></div>
+    <div class="faq-item"><div class="faq-q" onclick="toggleFaq(this)">Comment monétiser Facebook depuis un pays africain ?<i class="ti ti-chevron-down"></i></div><div class="faq-a">Facebook a étendu les programmes de monétisation à plusieurs pays africains (Côte d'Ivoire, Sénégal, Cameroun, Maroc, Nigeria, Ghana…). Pour activer la monétisation, vous avez besoin d'une Page (pas un profil), d'atteindre 10 000 abonnés et 600 000 minutes vues en 60 jours. Ensuite, vous activez Creator Studio, acceptez les conditions, et liez un compte PayPal ou bancaire. MalihaGroup vous accompagne à chaque étape — contactez-nous.</div></div>
+    <div class="faq-item"><div class="faq-q" onclick="toggleFaq(this)">Pouvez-vous m'aider à trouver une école en Europe selon mon profil ?<i class="ti ti-chevron-down"></i></div><div class="faq-a">Absolument. Dites-nous votre niveau d'études actuel, votre domaine de prédilection, votre budget, le pays préféré et vos contraintes (langue, financement, bourse). Nous vous proposons une sélection d'établissements adaptés à votre profil, vous guidons pour les démarches de dossier (Campus France, candidature directe, etc.) et vous mettons en contact avec des étudiants africains déjà dans ces écoles.</div></div>
+    <div class="faq-item"><div class="faq-q" onclick="toggleFaq(this)">Comment fonctionne le service "Je cherche pour toi en Europe" ?<i class="ti ti-chevron-down"></i></div><div class="faq-a">Vous remplissez le formulaire en précisant ce que vous recherchez (voiture, électronique, matériaux, vêtements…), votre budget et vos critères. Notre équipe en Europe effectue la recherche pour vous et vous présente les meilleures offres trouvées dans un délai de 24 à 72 heures. Si une offre vous intéresse, nous vous mettons directement en contact avec le vendeur ou gérons la transaction pour vous. Les frais du service sont communiqués à l'avance.</div></div>
+    <div class="faq-item"><div class="faq-q" onclick="toggleFaq(this)">Proposez-vous des partenariats avec des organisations ou entreprises ?<i class="ti ti-chevron-down"></i></div><div class="faq-a">Oui ! Nous sommes ouverts à des partenariats avec des organismes de formation, des universités, des agences de voyage, des entreprises de transfert d'argent, des associations de la diaspora, et tout acteur œuvrant pour le développement Afrique-Europe. Contactez-nous par email à contact@malihagroup.com en précisant votre organisation et votre proposition.</div></div>
+  </div>
+</div>
+</div>
+
+<!-- CONTACT -->
+<div class="section-wrap-dark" id="contact">
+<div class="section">
+  <div class="section-header dark-header">
+    <div class="pill-tag">Contact & Inscription</div>
+    <h2>Parlons-nous</h2>
+    <p>Pour toute question, inscription, demande ou partenariat — nous répondons sous 24 à 48 heures, 7j/7</p>
+  </div>
+  <div class="contact-wrap">
+    <div class="contact-info">
+      <h3>Contactez MalihaGroup</h3>
+      <p>Que vous ayez une question sur un visa, une idée de business, que vous vouliez rejoindre le réseau, vendre sur la marketplace ou proposer un partenariat — notre équipe est là pour vous.</p>
+      <div class="contact-methods">
+        <a class="cmethod" href="https://wa.me/49000000000" target="_blank"><i class="ti ti-brand-whatsapp"></i><div class="cmethod-text"><strong>WhatsApp</strong><span>Réponse en quelques minutes — envoyez votre question</span></div></a>
+        <a class="cmethod" href="mailto:contact@malihagroup.com"><i class="ti ti-mail"></i><div class="cmethod-text"><strong>Email</strong><span>contact@malihagroup.com</span></div></a>
+        <a class="cmethod" href="#"><i class="ti ti-brand-instagram"></i><div class="cmethod-text"><strong>Instagram</strong><span>@MalihaGroup</span></div></a>
+        <a class="cmethod" href="#"><i class="ti ti-brand-facebook"></i><div class="cmethod-text"><strong>Facebook</strong><span>MalihaGroup officiel</span></div></a>
+        <a class="cmethod" href="#"><i class="ti ti-brand-tiktok"></i><div class="cmethod-text"><strong>TikTok</strong><span>@MalihaGroup</span></div></a>
+        <div class="cmethod"><i class="ti ti-clock"></i><div class="cmethod-text"><strong>Délai de réponse</strong><span>24 à 48 heures — 7 jours / 7</span></div></div>
+      </div>
+    </div>
+    <div>
+      <div class="contact-form-box">
+        <div class="form-row2">
+          <input type="text" placeholder="Prénom *"/>
+          <input type="text" placeholder="Nom *"/>
+        </div>
+        <input type="email" placeholder="Email *"/>
+        <input type="tel" placeholder="WhatsApp / Téléphone *"/>
+        <select>
+          <option value="">Votre pays de résidence *</option>
+          <option>Mali</option><option>Sénégal</option><option>Côte d'Ivoire</option>
+          <option>Cameroun</option><option>Congo (RDC)</option><option>Guinée</option>
+          <option>Burkina Faso</option><option>Niger</option><option>Togo</option>
+          <option>Bénin</option><option>Maroc</option><option>Algérie</option>
+          <option>Tunisie</option><option>Ghana</option><option>Nigeria</option>
+          <option>Sénégal</option><option>Mauritanie</option><option>Gabon</option>
+          <option>Allemagne</option><option>France</option><option>Belgique</option>
+          <option>Suisse</option><option>Royaume-Uni</option><option>Italie</option>
+          <option>Espagne</option><option>Pays-Bas</option><option>Portugal</option>
+          <option>Autriche</option><option>Suède</option><option>Canada</option>
+          <option>Autre</option>
+        </select>
+        <select>
+          <option value="">Objet de votre message *</option>
+          <option>Conseils visa / immigration</option>
+          <option>Orientation scolaire — trouver une école</option>
+          <option>Opportunité ou conseil business</option>
+          <option>Rejoindre le réseau de mise en relation</option>
+          <option>Aide à la monétisation réseaux sociaux</option>
+          <option>Achat / vente sur la marketplace</option>
+          <option>Service "Je cherche pour toi en Europe"</option>
+          <option>Déposer une annonce</option>
+          <option>Partenariat ou collaboration</option>
+          <option>Signaler un problème</option>
+          <option>Autre demande</option>
+        </select>
+        <textarea placeholder="Votre message — plus vous êtes précis, mieux nous pouvons vous aider..."></textarea>
+        <button class="btn-submit" onclick="validateAndSend()">Envoyer le message →</button>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-inner">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="#" class="logo">MalihaGroup<small>AFRIQUE · EUROPE · MONDE</small></a>
+        <p>Votre partenaire de confiance pour réussir entre l'Afrique et l'Europe. Conseils, réseau, business, marketplace — gratuit et accessible à tous.</p>
+        <div class="footer-socials">
+          <a class="fsoc" href="#" title="Facebook"><i class="ti ti-brand-facebook"></i></a>
+          <a class="fsoc" href="#" title="Instagram"><i class="ti ti-brand-instagram"></i></a>
+          <a class="fsoc" href="#" title="TikTok"><i class="ti ti-brand-tiktok"></i></a>
+          <a class="fsoc" href="#" title="WhatsApp"><i class="ti ti-brand-whatsapp"></i></a>
+          <a class="fsoc" href="#" title="YouTube"><i class="ti ti-brand-youtube"></i></a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h5>SERVICES</h5>
+        <a href="#conseils">Conseils Europe</a>
+        <a href="#ecoles">Écoles & Universités</a>
+        <a href="#business">Idées Business</a>
+        <a href="#rencontre">Espace Rencontres</a>
+        <a href="#monetisation">Monétisation</a>
+        <a href="#marketplace">Marketplace</a>
+      </div>
+      <div class="footer-col">
+        <h5>DESTINATIONS</h5>
+        <a href="#conseils">Allemagne</a>
+        <a href="#ecoles">France</a>
+        <a href="#ecoles">Belgique</a>
+        <a href="#ecoles">Suisse</a>
+        <a href="#ecoles">Royaume-Uni</a>
+        <a href="#ecoles">Canada francophone</a>
+        <a href="#ecoles">Pays-Bas & Irlande</a>
+      </div>
+      <div class="footer-col">
+        <h5>INFORMATIONS</h5>
+        <a href="#apropos">À propos</a>
+        <a href="#actualites">Actualités & Blog</a>
+        <a href="#faq">FAQ</a>
+        <a href="#contact">Contact</a>
+        <a href="#contact">Partenariats</a>
+        <a href="#contact">Mentions légales</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2025 MalihaGroup — Tous droits réservés</span>
+      <span>Fait avec ❤️ pour la diaspora africaine</span>
+    </div>
+  </div>
+</footer>
+
+<!-- FLOATING BUTTONS -->
+<a class="whatsapp-float" href="https://wa.me/49000000000" target="_blank" title="Contacter sur WhatsApp"><i class="ti ti-brand-whatsapp"></i></a>
+<div class="scroll-top" id="scrollTop" onclick="window.scrollTo({top:0,behavior:'smooth'})" title="Retour en haut"><i class="ti ti-arrow-up"></i></div>
+
+<!-- TOAST -->
+<div class="toast" id="toast"></div>
+
+<script>
+// Menu mobile
+function toggleMenu(){document.getElementById('mobileMenu').classList.toggle('open');}
+function closeMobile(){document.getElementById('mobileMenu').classList.remove('open');}
+
+// Scroll top visibility
+window.addEventListener('scroll',()=>{
+  document.getElementById('scrollTop').classList.toggle('visible',window.scrollY>400);
+});
+
+// Toast
+function showToast(msg){
+  const t=document.getElementById('toast');
+  t.textContent=msg;t.style.display='block';
+  setTimeout(()=>t.style.display='none',3800);
+}
+
+// Filtres écoles
+function filterEcoles(cat,el){
+  document.querySelectorAll('.etab').forEach(t=>t.classList.remove('active'));
+  el.classList.add('active');
+  document.querySelectorAll('.ecard').forEach(c=>{
+    c.classList.toggle('visible', cat==='tous' || c.dataset.cat.includes(cat));
+  });
+}
+
+// Filtres marketplace
+function filterMarket(cat,el){
+  document.querySelectorAll('.mfilt').forEach(t=>t.classList.remove('active'));
+  el.classList.add('active');
+  document.querySelectorAll('.mcard').forEach(c=>{
+    c.style.display = (cat==='tous'||c.dataset.cat===cat)?'block':'none';
+  });
+}
+
+// FAQ accordéon
+function toggleFaq(el){
+  const a=el.nextElementSibling;
+  const isOpen=a.classList.contains('open');
+  document.querySelectorAll('.faq-a').forEach(x=>x.classList.remove('open'));
+  document.querySelectorAll('.faq-q').forEach(x=>x.classList.remove('open'));
+  if(!isOpen){a.classList.add('open');el.classList.add('open');}
+}
+
+// Toggle formulaire annonce
+function toggleAnnonce(){
+  document.getElementById('annonceBox').classList.toggle('open');
+}
+
+// Validation contact
+function validateAndSend(){
+  showToast('✓ Message envoyé avec succès ! Réponse sous 24–48 heures.');
+}
+
+// Smooth scroll pour les ancres nav
+document.querySelectorAll('a[href^="#"]').forEach(a=>{
+  a.addEventListener('click',e=>{
+    const target=document.querySelector(a.getAttribute('href'));
+    if(target){e.preventDefault();target.scrollIntoView({behavior:'smooth'});}
+  });
+});
+</script>
+</body>
+</html>
