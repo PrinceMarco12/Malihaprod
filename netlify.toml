@@ -1,0 +1,8 @@
+[build]
+  publish = "."
+
+[[plugins]]
+  package = "netlify-plugin-identity-widget"
+
+[admin]
+  # Configuration pour Decap CMS
